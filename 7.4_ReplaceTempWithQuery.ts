@@ -9,6 +9,9 @@
  * 初始代码
  */
 class _Order {
+  private _quantity;
+  private _item;
+
   constructor(quantity, item) {
     this._quantity = quantity;
     this._item = item;
@@ -26,6 +29,9 @@ class _Order {
  * 重构后，代码达到了更高的清晰度
  */
 class Order {
+  private _quantity;
+  private _item;
+
   constructor(quantity, item) {
     this._quantity = quantity;
     this._item = item;
